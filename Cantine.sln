@@ -1,0 +1,52 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.12.35527.113 d17.12
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cantine.Api", "Cantine.Api\Cantine.Api.csproj", "{73E977F0-6112-4B3A-AE49-1CD1ED288D87}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cantine", "Cantine\Cantine.csproj", "{6B835FDE-5634-4A63-88D6-6DDD8D17B222}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cantine.Interfaces", "Cantine.Interfaces\Cantine.Interfaces.csproj", "{0230C9B1-F6FB-4B84-9E9A-F8686B3AAA86}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cantine.Exceptions", "Cantine.Exceptions\Cantine.Exceptions.csproj", "{0CD6B478-588D-43CB-A8BB-BF10FC9B504E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cantine.Models", "Cantine.Models\Cantine.Models.csproj", "{A3C31802-3115-432F-A167-1E4E7456ADEA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cantine.Tests", "Cantine.Tests\Cantine.Tests.csproj", "{3DEADA3F-7266-4DDE-A623-42277BCDE215}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{73E977F0-6112-4B3A-AE49-1CD1ED288D87}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{73E977F0-6112-4B3A-AE49-1CD1ED288D87}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{73E977F0-6112-4B3A-AE49-1CD1ED288D87}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{73E977F0-6112-4B3A-AE49-1CD1ED288D87}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6B835FDE-5634-4A63-88D6-6DDD8D17B222}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6B835FDE-5634-4A63-88D6-6DDD8D17B222}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6B835FDE-5634-4A63-88D6-6DDD8D17B222}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6B835FDE-5634-4A63-88D6-6DDD8D17B222}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0230C9B1-F6FB-4B84-9E9A-F8686B3AAA86}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0230C9B1-F6FB-4B84-9E9A-F8686B3AAA86}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0230C9B1-F6FB-4B84-9E9A-F8686B3AAA86}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0230C9B1-F6FB-4B84-9E9A-F8686B3AAA86}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0CD6B478-588D-43CB-A8BB-BF10FC9B504E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0CD6B478-588D-43CB-A8BB-BF10FC9B504E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0CD6B478-588D-43CB-A8BB-BF10FC9B504E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0CD6B478-588D-43CB-A8BB-BF10FC9B504E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A3C31802-3115-432F-A167-1E4E7456ADEA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A3C31802-3115-432F-A167-1E4E7456ADEA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A3C31802-3115-432F-A167-1E4E7456ADEA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A3C31802-3115-432F-A167-1E4E7456ADEA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3DEADA3F-7266-4DDE-A623-42277BCDE215}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3DEADA3F-7266-4DDE-A623-42277BCDE215}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3DEADA3F-7266-4DDE-A623-42277BCDE215}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3DEADA3F-7266-4DDE-A623-42277BCDE215}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

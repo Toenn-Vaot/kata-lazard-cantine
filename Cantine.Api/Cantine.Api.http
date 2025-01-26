@@ -1,0 +1,6 @@
+@Cantine.Api_HostAddress = http://localhost:5073
+
+GET {{Cantine.Api_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
